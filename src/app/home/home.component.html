@@ -1,1 +1,4 @@
-<p>home works!</p>
+<div *ngFor="let item of checklist" id={{item.Riktlinje_nr}}>
+  <h5>{{item.Namn}}</h5>
+  <p [innerHtml]="item.Beskrivning"></p>
+</div>
