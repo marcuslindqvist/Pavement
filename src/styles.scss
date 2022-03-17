@@ -1,23 +1,68 @@
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@use "~@angular/material" as mat;
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat.core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$Pavement-primary: mat.define-palette(mat.$indigo-palette);
+$Pavement-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$Pavement-warn: mat.define-palette(mat.$red-palette);
+
+// Create the theme object. A theme consists of configurations for individual
+// theming systems such as "color" or "typography".
+$Pavement-theme: mat.define-light-theme(
+  (
+    color: (
+      primary: $Pavement-primary,
+      accent: $Pavement-accent,
+      warn: $Pavement-warn,
+    ),
+  )
+);
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include mat.all-component-themes($Pavement-theme);
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
-  background-color: rgb(255, 255, 240);
+  background-color: rgba(246, 241, 237, 255);
 }
 h1 {
-  font-size: 7.993rem;
+  font-size: 4.236rem;
 }
 h2 {
-  font-size: 5.653rem;
+  font-size: 2.618rem;
 }
 h3 {
-  font-size: 3.998rem;
+  font-size: 1.618rem;
 }
 h4 {
-  font-size: 2.827rem;
+  font-size: 1rem;
 }
 h5 {
-  font-size: 1.999rem;
+  font-size: 0.618;
 }
 h6 {
-  font-size: 1.414rem;
+  font-size: 0.382rem;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
 }

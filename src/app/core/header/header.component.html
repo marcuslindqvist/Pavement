@@ -1,4 +1,12 @@
-<h1>pavement</h1>
-<p>[header-component]</p>
-<a [routerLink]="['/']">home</a>
-<a [routerLink]="['checklist']">checklist</a>
+<header>
+  <span id="page-title">PAVEMENT</span>
+  <nav role="navigation" aria-label="Main">
+    <a [routerLink]="['/']">Hem</a>
+    <a [routerLink]="['checklist']">Checklista</a>
+  </nav>
+  <div class="settings-login">
+    <mat-slide-toggle>
+    </mat-slide-toggle>
+    <button mat-flat-button>Login</button>
+  </div>
+</header>

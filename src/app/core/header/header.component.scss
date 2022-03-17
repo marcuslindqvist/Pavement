@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+#page-title {
+  color: rgb(31, 31, 31);
+  font-weight: bold;
+}
+
+nav {
+  a {
+    text-decoration: none;
+    margin-left: 2rem;
+    color: rgb(31, 31, 31);
+    font-weight: bold;
+  }
+}
+
+.settings-login {
+  display: flex;
+  align-items: center;
+  mat-slide-toggle {
+    padding-right: 2rem;
+  }
+}
