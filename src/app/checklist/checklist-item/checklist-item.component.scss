@@ -1,0 +1,19 @@
+.checklist-item {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.example-header-image {
+  border: rgb(31, 31, 31) 1px solid;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+mat-card-footer {
+  display: flex;
+  align-items: center;
+}

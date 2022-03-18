@@ -1,0 +1,12 @@
+.checklist-content {
+  display: flex;
+}
+.side-list {
+  width: 20%;
+}
+.checklist-container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}

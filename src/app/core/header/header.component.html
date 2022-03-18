@@ -1,12 +1,23 @@
 <header>
   <span id="page-title">PAVEMENT</span>
   <nav role="navigation" aria-label="Main">
-    <a [routerLink]="['/']">Hem</a>
+    <a [routerLink]="['/']">Hemma</a>
     <a [routerLink]="['checklist']">Checklista</a>
+    <a>Länkar</a>
+    <a>Korvar</a>
   </nav>
   <div class="settings-login">
-    <mat-slide-toggle>
-    </mat-slide-toggle>
-    <button mat-flat-button>Login</button>
+    <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+      <mat-icon>settings</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <div mat-menu-item>
+        <mat-slide-toggle color="primary">
+          Mörkt läge
+        </mat-slide-toggle>
+      </div>
+      <button mat-menu-item>Enkelt läge</button>
+    </mat-menu>
+    <button mat-flat-button color="primary">Login</button>
   </div>
 </header>

@@ -1,0 +1,5 @@
+<mat-selection-list *ngFor="let item of list" #wcag [multiple]="false">
+  <mat-list-option [value]="item.Riktlinje_nr" [routerLink]="['/checklist/', item.Riktlinje_nr]">
+    <h4>{{item.Namn}} ({{item.Riktlinje_nr}})</h4>
+  </mat-list-option>
+</mat-selection-list>>

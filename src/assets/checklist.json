@@ -548,27 +548,5 @@
     "Taggar": "DOS-lagen, Nytt i WCAG 2.1, responsiv, skärmriktning",
     "Senast_uppdaterad": "2018-11-28",
     "Status": ""
-  },
-  {
-    "Riktlinje_nr": 1,
-    "URL": "https://webbriktlinjer.se/riktlinjer/1-utga-fran-wcag-2-1-niva-aa/",
-    "Namn": "Följ WCAG 2.1 nivå AA",
-    "Beskrivning": "Följ Web Content Accessibility Guidelines (WCAG)  för att göra webbplatsen, innehållet och era tjänster tillgängliga för en bred mottagargrupp, inklusive personer med olika typer av funktionsnedsättningar. Detta maximerar värdet på de resurser ni lägger på webbutveckling och ökar samtidigt möjligheten för alla att delta i samhället på lika villkor.",
-    "Prio": "Inaktiv",
-    "Principer": "Tillgänglig",
-    "Taggar": "Beställare, Förvaltning, Informatör, Nämner lag, Omfattande riktlinje, Språk, Tillgänglighet, Utvecklare, Utveckling, Webbplatsansvarig, Webbredaktör",
-    "Senast_uppdaterad": "2018-12-21",
-    "Status": ""
-  },
-  {
-    "Riktlinje_nr": 1,
-    "URL": "https://webbriktlinjer.se/riktlinjer/1-utga-fran-wcag-2-1-niva-aa/",
-    "Namn": "Följ WCAG 2.1 nivå AA",
-    "Beskrivning": "Följ Web Content Accessibility Guidelines (WCAG)  för att göra webbplatsen, innehållet och era tjänster tillgängliga för en bred mottagargrupp, inklusive personer med olika typer av funktionsnedsättningar. Detta maximerar värdet på de resurser ni lägger på webbutveckling och ökar samtidigt möjligheten för alla att delta i samhället på lika villkor.",
-    "Prio": "Inaktiv",
-    "Principer": "Tillgänglig",
-    "Taggar": "Beställare, Förvaltning, Informatör, Nämner lag, Omfattande riktlinje, Språk, Tillgänglighet, Utvecklare, Utveckling, Webbplatsansvarig, Webbredaktör",
-    "Senast_uppdaterad": "2018-12-21",
-    "Status": ""
   }
 ]

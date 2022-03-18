@@ -8,9 +8,14 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ChecklistItemComponent implements OnInit {
   @Input() item: wcag_rule;
 
+  tagsList = [];
   constructor() { }
 
   ngOnInit(): void {
+    this.createTagArray()
+  }
+  createTagArray() {
+    this.tagsList = this.item.Taggar.split(',');
   }
 
 }

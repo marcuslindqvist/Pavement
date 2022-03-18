@@ -1,2 +1,11 @@
-<h4>{{item.Namn}}</h4>
-<p [innerHtml]="item.Beskrivning"></p>
+<mat-card class="checklist-item" color="primary" [routerLink]="['/checklist/', item.Riktlinje_nr]">
+  <mat-card-content>
+    <!-- <p [innerHtml]="item.Beskrivning"></p> -->
+
+  </mat-card-content>
+  <mat-card-footer>
+    <div mat-card-avatar class="example-header-image">{{item.Riktlinje_nr}}</div>
+    <h4>{{item.Namn}}</h4>
+  </mat-card-footer>
+
+</mat-card>

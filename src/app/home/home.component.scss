@@ -1,0 +1,32 @@
+.dot {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: rgb(31, 31, 31) 1px solid;
+}
+.dot:hover {
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0% {
+    background-color: none;
+  }
+  20% {
+    background-color: rgb(67, 255, 92);
+  }
+  40% {
+    background-color: rgb(255, 255, 91);
+  }
+  60% {
+    background-color: rgb(255, 72, 59);
+  }
+  80% {
+    background-color: rgb(255, 34, 207);
+  }
+  60% {
+    background-color: none;
+  }
+}

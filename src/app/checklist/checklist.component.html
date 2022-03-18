@@ -1,3 +1,16 @@
-<h1>WCAG-regler att tänka på</h1>
-<pav-checklist-item *ngFor="let checklistItem of checklist" id={{checklistItem.Riktlinje_nr}} [item]="checklistItem">
-</pav-checklist-item>
+<main>
+  <h1>WCAG-regler att tänka på</h1>
+  <div class="checklist-content">
+    <div class="side-list">
+      <app-checklist-left-list [list]=" checklist">
+      </app-checklist-left-list>
+    </div>
+
+
+    <div class="checklist-container">
+      <pav-checklist-item *ngFor="let checklistItem of checklist" [id]="checklistItem.Riktlinje_nr"
+        [item]="checklistItem">
+      </pav-checklist-item>
+    </div>
+  </div>
+</main>
